@@ -70,7 +70,7 @@ ai-agent-app/
 │
 ├── __pycache__/
 └── venv/
-
+```
 # ⚙️ Installation
 
 ## Clone Repository
