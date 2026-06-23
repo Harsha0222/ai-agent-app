@@ -79,7 +79,7 @@ ai-agent-app/
 git clone https://github.com/Harsha0222/ai-agent-app.git
 
 cd ai-agent-app
-
+```
 ## Create Virtual Environment
 ### Windows
 
@@ -88,14 +88,15 @@ python -m venv venv
 venv\Scripts\activate
 ```
 ### Linux / Mac
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 ## Install Dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 # 🦙 Install Ollama
 Download Ollama:
 https://ollama.com
@@ -104,9 +105,9 @@ Verify installation:
 
 # 📥 Download Model
 ## Qwen 2.5
-
+```bash
 ollama pull qwen2.5
-
+```
 Recommended for this project.
 
 ### Alternative
@@ -227,11 +228,9 @@ If using Ollama only, no API key is required.
 
 # 👨‍💻 Author
 
-**Harsha**
+**Harsha Vardhan**
 
 GitHub:
 https://github.com/Harsha0222
 
 ---
-
-Made with ❤️ using Python, Streamlit, and Ollama.
